@@ -1,0 +1,19 @@
+{
+  "name": "my-webpack-babel-template",
+  "version": "1.0.0",
+  "description": "A template for web projects using ES2015",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack -p"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "webpack": "^2.3.2"
+  }
+}
